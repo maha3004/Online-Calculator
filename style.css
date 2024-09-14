@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #ff9900; /* Orange */
+    --secondary-color: #007bff; /* Blue */
+    --accent-color: #34c759; /* Green */
+    --background-color: #f2f2f2; /* Light gray */
+  }
+  
+  .calculator {
+    background-color: var(--background-color);
+    padding: 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .screen {
+    background-color: var(--accent-color);
+    padding: 10px;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+  }
